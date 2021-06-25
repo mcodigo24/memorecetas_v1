@@ -1,0 +1,26 @@
+* {
+    margin: 0;    
+}
+
+body{
+    font-family: 'Indie Flower', cursive;    
+    background-color: #F2F2F2; 
+    height: 100vh;   
+}
+
+header, footer {
+    background-color: #EA8A8A;
+}
+
+.card {    
+    border-radius: 10px;
+    background-color: #EBD5D5;
+}
+
+.list-group-item {
+    background-color: #EBD5D5;
+}
+
+.card-title {
+    color: #685454;
+}
