@@ -1,48 +1,120 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Memo-Recetas</title>
 </head>
+
 <body>
     <header>
-        <nav class="navbar mb-1">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-              <span class="navbar-brand mb-0 h1">Memo-Recetas</span>
+                <span class="navbar-brand mb-0 h1">Memo-Recetas</span>
+                <div id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#salado">Salados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#dulce">Dulces</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </nav>
+        </nav>
     </header>
     <main class="container">
-        <div class="row">
-            <div class="col-xs-12 col-md-4">
-                <div class="card mb-1" style="width: 20rem;">                    
-                    <div class="card-body">
-                      <h5 class="card-title">Brownies</h5>
-                      <p class="card-text">Caseritos caseritos!</p>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">3 huevos</li>
-                      <li class="list-group-item">1/2 cdita. de polvo para hornear</li>
-                      <li class="list-group-item">200gr de azúcar</li>
-                      <li class="list-group-item">100gr de manteca</li>
-                      <li class="list-group-item">150gr de harina 0000</li>
-                      <li class="list-group-item">220gr de chocolatada</li>                      
-                      <li class="list-group-item">Escencia de vainilla</li>
-                    </ul>
-                    <div class="card-body">
-                      <a href="#" class="card-link">Receta..</a>                      
+        <section id="salado">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h4>Salados:</h4>
+                </div>
+            </div>
+            <div class="row justify-content-center m-0">
+                <div class="col-xs-12 col-md-4">
+                    <div class="card mb-1" style="width: 20rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Pan</h5>
+                            <p class="card-text">Integral, bien sanito!</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">1 cdita de azucar</li>
+                            <li class="list-group-item">1 cubito de levadura</li>
+                            <li class="list-group-item">3 cdas de sal</li>
+                            <li class="list-group-item">3 cdas de aceite</li>
+                            <li class="list-group-item">500gr de harina 0000</li>
+                            <li class="list-group-item">500gr de harina integral</li>
+                            <li class="list-group-item">2 tazas de agua</li>
+                            <li class="list-group-item">Semillas a gusto</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Receta..</a>
+                        </div>
                     </div>
                 </div>
-            </div>           
-        </div>
+                <div class="col-xs-12 col-md-4">
+                    <div class="card mb-1" style="width: 20rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Scone de queso</h5>
+                            <p class="card-text">Riqui riqui!</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">1 cdita. de polvo para hornear</li>
+                            <li class="list-group-item">1 cdita. de sal</li>
+                            <li class="list-group-item">2 huevos</li>
+                            <li class="list-group-item">1 sobre sabor 4 quesos</li>
+                            <li class="list-group-item">500gr de harina 0000</li>
+                            <li class="list-group-item">150gr de mantenca</li>
+                            <li class="list-group-item">200gr de queso rallado</li>
+                            <li class="list-group-item">100cc de leche</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Receta..</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="dulce">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h4>Dulces:</h4>
+                </div>
+            </div>
+            <div class="row justify-content-center m-0">
+                <div class="col-xs-12 col-md-4">
+                    <div class="card mb-1" style="width: 20rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Brownies</h5>
+                            <p class="card-text">Caseritos caseritos!</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">3 huevos</li>
+                            <li class="list-group-item">1/2 cdita. de polvo para hornear</li>
+                            <li class="list-group-item">200gr de azúcar</li>
+                            <li class="list-group-item">100gr de manteca</li>
+                            <li class="list-group-item">150gr de harina 0000</li>
+                            <li class="list-group-item">220gr de chocolatada</li>
+                            <li class="list-group-item">Escencia de vainilla</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Receta..</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        
+
+
         <!-- <div class="receta">
             <h3>Scone de queso</h3>
             <div class="ingredientes">
@@ -88,8 +160,9 @@
             </div>
         </div> -->
     </main>
-    <footer class="fixed-bottom">
+    <footer class="page-footer">
         footer
     </footer>
 </body>
+
 </html>
